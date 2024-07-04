@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Ping Pong Score Keeper</h1>
+        <hr>
+        <div class="score">
+            <div id="score1">0</div>
+            <p>to</p>
+            <div id="score2">0</div>
+        </div>
+        <div class="choose">
+            <p>Lütfen kaçta biteceğini seçin:</p>
+            <input list="num">
+            <datalist id="num">
+                <option value="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+            </datalist>
+        </div>
+        <div class="buttons">
+            <button id="scor1">First +1</button>
+            <button id="res">Reset</button>
+            <button id="scor2">Second +1</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

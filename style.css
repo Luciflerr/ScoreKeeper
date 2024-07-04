@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    border: solid 1px #333;
+    border-radius: 10px;
+    margin: 100px;
+    margin-top: 30px;
+    background: linear-gradient(310deg, #ffcbcb, rgb(217, 251, 250))
+}
+
+.container h1{
+    text-align: center;
+    font-size: 35px;
+    color: #333;
+}
+.score{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 20px;
+    color: #333;
+}
+.choose{
+    margin: 20px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.choose p{
+    margin-top: 3px;
+}
+.choose input{
+    background-color: transparent;
+    border: #333 solid 1px;
+    padding: 2px;
+    border-radius: 10px;
+    width: 40px;
+    text-align: center;
+}
+.buttons{
+    margin: 20px;
+}
+.buttons button{
+    background: transparent;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    width: 85px;
+    text-align: center;
+    font-weight: bold;
+}
